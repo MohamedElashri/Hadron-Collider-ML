@@ -42,7 +42,7 @@ if you have question regarding this project, feel free to contact me.
   <tr>
     <td class="tg-yw4l">Detector Optimization</td>
     <td class="tg-yw4l">Improve the conventional tracking systems using gaussian process</td>
-    <td class="tg-yw4l"><a href="">
+    <td class="tg-yw4l"><a href="https://colab.research.google.com/github/MohamedElashri/Hadron-Collider-ML/blob/master/Detector_Optimization.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" height = '23px' >
     </a></td>
   </tr>
