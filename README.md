@@ -20,7 +20,7 @@ if you have question regarding this project, feel free to contact me.
   </tr>
   <tr>
     <td class="tg-yw4l">Particle Identification</td>
-    <td class="tg-yw4l">Identify the type of atomic/subatomic particle</td>
+    <td class="tg-yw4l">Identify the type of elementry particles</td>
     <td class="tg-yw4l"><a href="https://colab.research.google.com/github/MohamedElashri/Hadron-Collider-ML/blob/master/Particle_identification.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" height = '23px' >
     </a></td>
