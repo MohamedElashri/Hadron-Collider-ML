@@ -1,3 +1,5 @@
+[![View in Deepnote](https://deepnote.com/static/buttons/view-in-deepnote.svg)](https://deepnote.com/viewer/github/MohamedElashri/Hadron-Collider-ML/blob/master/week4/index-trial.ipynb)
+
 # Week4 assignment
 
 In this task you have to design a prediction model that is able to discriminate the basetracks beloning to the electromagnetic showers from the background basetracks. The goal is to get the best possible score (ROC AUC). 
