@@ -1,3 +1,6 @@
+
+[![View in Deepnote](https://deepnote.com/static/buttons/view-in-deepnote.svg)](https://deepnote.com/viewer/github/MohamedElashri/Hadron-Collider-ML/blob/master/week3/index.ipynb)
+
 # Week3 programming assignment
 
 
