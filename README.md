@@ -16,8 +16,6 @@ if you have question regarding this project, feel free to contact me via E-mail
     <td class="tg-yw4l">Computing the mass of Z-boson</td>
     <td class="tg-yw4l"><a href="https://colab.research.google.com/github/MohamedElashri/Hadron-Collider-ML/blob/master/Z_Boson_mass_measurement.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" height = '23px' > 
-      [![View in Deepnote](https://deepnote.com/static/buttons/view-in-deepnote.svg)](https://deepnote.com/viewer/github/deepnote.com/viewer/github/MohamedElashri/Hadron-Collider-ML/blob/master/Z_Boson_mass_measurement.ipynb)
-
     </a></td>
   </tr>
   <tr>
