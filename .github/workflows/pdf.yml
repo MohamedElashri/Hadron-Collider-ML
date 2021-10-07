@@ -14,6 +14,9 @@ jobs:
         ref: ${{ github.head_ref }}
     - name: Jupyter Notebooks to Markdown
       uses: MohamedElashri/Jupyter-to-Markdown@v1
+    - name: workaround for permission denied problem  
+      run: |
+          sudo chmod -R g+w */*.*
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
