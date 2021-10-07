@@ -1,0 +1,24 @@
+name: Jupyter to Markdown
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '**.ipynb'
+      - '**/**.ipynb'
+jobs:
+  convertmd:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+    - name: Jupyter Notebooks to Markdown
+      uses: MohamedElashri/Jupyter-to-Markdown@v1
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        commit-message: Pull request with the Convreted markdown files
+        committer: Mohamed Elashri <MohamedElashri@users.noreply.github.com>
+        title: Convert file from .ipynb to .md 
+        body: This is an auto-generated PR
+        branch: md
