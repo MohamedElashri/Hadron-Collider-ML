@@ -16,7 +16,7 @@ jobs:
       uses: MohamedElashri/Jupyter-to-Markdown@v1
     - name: workaround for permission denied problem  
       run: |
-          sudo chmod -R g+w */*.*
+          sudo chmod -R ug+w .;
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
